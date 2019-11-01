@@ -2,19 +2,16 @@ import React from "react"
 import LinkButton from "./linkButton"
 
 const linkButtons = [
-  {label:'Page 1', link:'/'},
-  {label:'Page 2', link:'/page-2/'},
-  {label:'Page 1', link:'/'},
-  {label:'Page 2', link:'/page-2/'},
-  {label:'Page 1', link:'/'},
-  {label:'Page 2', link:'/page-2/'},
-  {label:'Page 1', link:'/'},
-  {label:'Page 2', link:'/page-2/'},
+  {label:'Home', link:'/'},
+  {label:'About Me', link:'/about-me/'},
+  {label:'Work Experience', link:'/work-experience/'},
+  {label:'Resume', link:'/resume/'},
 ].map((x) => <div style={{display: 'inline-block'}}><LinkButton label={x.label} link={x.link} />&nbsp;|&nbsp;</div>)
 
 const Header = () => (
-  <header style={{ background: 'rebeccapurple', marginBottom: '1.45rem' }}>
-    <h1 style={{ padding: '1.45rem 1.0875rem', margin: 0, whiteSpace: 'nowrap' }}>
+  <header style={{ background: 'rebeccapurple', marginBottom: '1.45rem', width: '100%' }}>
+    <h1 style={{ width:'100%', textAlign: 'center', padding: '1.45rem 1.0875rem', margin: 0, whiteSpace: 'nowrap' }}>
+      |&nbsp;
       {linkButtons}
     </h1>
   </header>
