@@ -27,8 +27,10 @@ const AboutMePage = () => {
         </div>
       <h1>About Me</h1>
       <p>My name is Doren and I'm a developer.</p>
-      <p>I want to have a solid understanding of everything that goes into a software project but I'm especially interested in web development and data science.</p>
-      <p>JavaScript and Python are wonderful tools and I love using them.</p>
+      <p>I want to have a solid understanding of everything that goes into a software project and I'm especially interested in web development and data science.</p>
+      <p>JavaScript and Python are wonderful tools and are currently my languages of choice.</p>
+      <p>In addition to coding at work and sometimes outside of work, I spend a lot of time reading articles, watching videos, and listening to podcasts about software
+        development.</p>
     </Layout>
   )
 }

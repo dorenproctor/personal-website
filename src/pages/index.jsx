@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Thanks for visiting my website</h1>
-    <p>I have created it using React with Gatsby.</p>
+    <p>I created it using React with Gatsby.</p>
     <div style={{ margin: 'auto', maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
     </div>
