@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ReactModal from 'react-modal'
+import VideoModal from '../components/videoModal'
 
 import oldExperience from "../assets/Old Mobile Experience.mp4"
 import newExperience from "../assets/New Mobile Experience.mp4"
@@ -20,8 +21,10 @@ const WorkExperiencePage = () => {
       <br/><br/><br/>
       <h3>Intern at Home Depot QuoteCenter</h3>
       <p>Here I worked with 3 other interns to make an internal site mobile friendly.</p>
+      <VideoModal src={oldExperience} buttonLabel='Before Video'/>
+      <VideoModal src={newExperience} buttonLabel='After Video'/>
       {/* <button onClick={() => setModalStates(true)} >See before and after videos</button> */}
-      <button onClick={() => setModalStates({...modalStates, beforeInternship:true})} >Before video</button> &nbsp;
+      {/* <button onClick={() => setModalStates({...modalStates, beforeInternship:true})} >Before video</button> &nbsp;
       <button onClick={() => setModalStates({...modalStates, afterInternship:true})} >After video</button>
       <ReactModal isOpen={modalStates.beforeInternship} onRequestClose={() => setModalStates({...modalStates, beforeInternship:false})}
                   style={{content: {backgroundColor: '#353131', display:'flex',}}} >
@@ -42,7 +45,7 @@ const WorkExperiencePage = () => {
           </video>
         <button onClick={() => setModalStates({...modalStates, afterInternship:false})} style={{backgroundColor:'none', position:'absolute', top:'5px', right:'5px'}}>X</button>
         </div>
-      </ReactModal>
+      </ReactModal> */}
       <br/><br/><br/>
       <h3>Intel NUC Challenge</h3>
       <p>This isn't <i>exactly</i> work experience, but I was on the team that won 1st place in an Intel competition.</p>
