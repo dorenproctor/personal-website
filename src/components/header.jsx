@@ -11,7 +11,7 @@ const linkButtons = [
 const Header = () => {
   // const isMobile = window.innerWidth <= 500;
   const h1Style = { width:'100%', textAlign: 'center', padding: '1.45rem 1.0875rem', margin: 0, whiteSpace: 'nowrap' }
-  if (navigator) { //undefined before page loads
+  if (typeof navigator !== 'undefined') { //undefined before page loads
     const isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
     if (isMobile) h1Style['fontSize'] = '.9rem'
   }
