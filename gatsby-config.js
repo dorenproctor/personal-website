@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `DorenProctor.com`,
-        short_name: `starter`,
+        short_name: `DorenProctor`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

@@ -2,20 +2,31 @@ import React, { useState } from "react"
 import ReactModal from 'react-modal'
 
 const VideoModal = ({src, buttonLabel}) => {
-  const [open, setOpen] = useState(false)
   ReactModal.setAppElement('body')
+  const [open, setOpen] = useState(false)
+  const modalStyle = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      maxWidth: '95vw',
+      maxHeight: '90vh',
+      marginRight: '-50%',
+      backgroundColor: '#353131',
+      transform: 'translate(-50%, -50%)'
+    }
+  }
   return (
-    <div> 
+    <div style={{display:'inline-block'}}> 
       <button onClick={() => setOpen(true)}>
         {buttonLabel}
       </button>
-      <ReactModal isOpen={open} onRequestClose={() => setOpen(false)} style={{content: {backgroundColor: '#353131', display:'flex',}}} >
-        <div style={{ width:'100%', height:'100%', justifyContent:'center'}}>
-          <video controls style={{width: '100%', maxHeight:'95%'}}>
-            <source src={src} type="video/mp4" />
-          </video>
-          <button onClick={() => setOpen(false)} style={{backgroundColor:'none', position:'absolute', top:'5px', right:'5px'}}>X</button>
-        </div>
+      <ReactModal isOpen={open} onRequestClose={() => setOpen(false)} style={modalStyle} >
+        <video controls style={{width: '100%', maxHeight:'80vh'}}>
+          <source src={src} type="video/mp4" />
+        </video>
+        <button onClick={() => setOpen(false)} style={{backgroundColor:'none', position:'absolute', top:'5px', right:'5px'}}>X</button>
       </ReactModal>
     </div>
   )
