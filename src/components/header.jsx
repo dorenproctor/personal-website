@@ -6,6 +6,7 @@ const linkButtons = [
   {label:'About Me', link:'/about-me/'},
   {label:'Work Experience', link:'/work-experience/'},
   {label:'Resume', link:'/resume/'},
+  {label:'Clash Royale', link:'/clash-royale/'},
 ].map((x) => <div style={{display: 'inline-block'}}><LinkButton label={x.label} link={x.link} />&nbsp;|&nbsp;</div>)
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
   const h1Style = { width:'100%', textAlign: 'center', padding: '1.45rem 1.0875rem', margin: 0, whiteSpace: 'nowrap' }
   if (typeof navigator !== 'undefined') { //undefined before page loads
     const isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
-    if (isMobile) h1Style['fontSize'] = '.9rem'
+    if (isMobile) h1Style['fontSize'] = '.7rem'
   }
   return (
     <header style={{ background: 'rebeccapurple', marginBottom: '1.45rem', width: '100%'}}>
