@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
     <div style={{ width:'100%', textAlign: 'center' }}>
       <main>{children}</main>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
   </>
 )
 
