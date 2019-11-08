@@ -782,6 +782,37 @@ export default {
       "Damage per second": ["24 x10","26 x10","29 x10","31 x10","35 x10","38 x10","42 x10","46 x10"]
     }
   },
+  "Witch": {
+    "unit-attributes-table": {
+      "Cost": "5",
+      "Hit Speed": "1.7 sec",
+      "Speed": "Medium (60)",
+      "Deploy Time": "1 sec",
+      "Spawn Speed": "7 sec",
+      "Range": "5",
+      "Target": "Air & Ground",
+      "Count": "x1",
+      "Transport": "Ground",
+      "Type": "Troop",
+      "Rarity": "Epic"
+    },
+    "unit-attributes-table-secondary": {
+      "Hit Speed": "1 sec",
+      "Speed": "Fast (90)",
+      "Range": "Melee: Short",
+      "Target": "Ground",
+      "Transport": "Ground"
+    },
+    "unit-statistics-table": {
+      "Level": ["6","7","8","9","10","11","12","13"],
+      "Witch Hitpoints": ["524","576","634","696","765","838","922","1,011"],
+      "Witch Damage": ["166","182","200","220","242","266","292","321"],
+      "Witch Damage per second": ["97","107","117","129","142","156","172","189"],
+      "Skeleton Hitpoints": ["51","56","61","67","74","81","89","98"],
+      "Skeleton Damage": ["51","56","61","67","74","81","89","98"],
+      "Skeleton Damage per second": ["51","56","61","67","74","81","89","98"]
+    }
+  },
   "Giant_Skeleton": {
     "unit-attributes-table": {
       "Cost": "6",
