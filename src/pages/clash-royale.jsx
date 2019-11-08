@@ -34,7 +34,7 @@ const ClashRoyale = () => {
     const vals = Object.values(stats)
     const listOfLists = (Array.isArray(vals[0])) ? zip(vals) : [vals]
     const rows = listOfLists.map(row => <tr> {row.map(val => (<td style={tableStyle}> {val} </td>))} </tr>)
-    return <div style={{overflowX:'scroll'}}><table style={{width:'50vw', margin:'auto', border:'black 1px solid'}}>{headers}{rows}</table></div>
+    return <div style={{overflowX:'auto'}}><table style={{width:'50vw', margin:'auto', border:'black 1px solid'}}>{headers}{rows}</table></div>
   }
   const updateTables = cardName => {
     const card = cardStats[cardName.replace(' ','_')]
