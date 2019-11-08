@@ -7,7 +7,7 @@ import "./custom.css"
 const Layout = ({ children }) => (
   <>
     <Header/>
-    <div style={{ width:'100%', textAlign: 'center' }}>
+    <div style={{ width:'100%', textAlign: 'center', overflow:'scroll' }}>
       <main>{children}</main>
     </div>
   </>

@@ -28,13 +28,13 @@ import cardStats from '../assets/cardStats'
 
 const ClashRoyale = () => {
   const zip = arrs => arrs[0].map((_,c)=>arrs.map(row=>row[c])) //like Python's zip function
-  const tableStyle = {textAlign:'center', border:'black 1px solid', paddingRight:'20px', paddingLeft:'20px'}
+  const tableStyle = {textAlign:'center', border:'black 1px solid', paddingRight:'10px', paddingLeft:'10px'}
   const createTableElem = stats => {
     const headers = <tr> {Object.keys(stats).map(x => (<th style={tableStyle}> {x} </th>))} </tr>
     const vals = Object.values(stats)
     const listOfLists = (Array.isArray(vals[0])) ? zip(vals) : [vals]
     const rows = listOfLists.map(row => <tr> {row.map(val => (<td style={tableStyle}> {val} </td>))} </tr>)
-    return <table style={{width:'50vw', margin:'auto', border:'black 1px solid'}}>{headers}{rows}</table>
+    return <div style={{overflowX:'scroll'}}><table style={{width:'50vw', margin:'auto', border:'black 1px solid'}}>{headers}{rows}</table></div>
   }
   const updateTables = cardName => {
     const card = cardStats[cardName.replace(' ','_')]
@@ -54,7 +54,7 @@ const ClashRoyale = () => {
       <datalist id="cardnames">
         {Object.keys(cardStats).sort().map(x => <option value={x.replace('_',' ')}/>)}
       </datalist><br/>
-      <h1>{state.cardName}</h1>
+      <h1 style={{textAlign:'center'}}>{state.cardName}</h1>
       {state.attrTable}<br/><br/><br/>
       {state.statsTable}<br/><br/><br/>
     </Layout>
