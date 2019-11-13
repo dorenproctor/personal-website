@@ -7,7 +7,7 @@ const linkButtons = [
   {label:'Work Experience', link:'/work-experience/'},
   {label:'Resume', link:'/resume/'},
   {label:'Clash Royale', link:'/clash-royale/'},
-].map((x) => <div style={{display: 'inline-block'}}><LinkButton label={x.label} link={x.link} />&nbsp;|&nbsp;</div>)
+].map(x => <div style={{display: 'inline-block'}} key={x.label}><LinkButton label={x.label} link={x.link} />&nbsp;|&nbsp;</div>)
 
 const Header = () => (
   <header style={{ background: 'rebeccapurple', marginBottom: '1.45rem', width: '100%'}}>

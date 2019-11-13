@@ -29,13 +29,27 @@ import cardStats from '../assets/cardStats'
 const ClashRoyale = () => {
   const zip = arrs => arrs[0].map((_,c)=>arrs.map(row=>row[c])) //like Python's zip function
   const tableStyle = {textAlign:'center', border:'black 1px solid', paddingRight:'10px', paddingLeft:'10px'}
+  
   const createTableElem = stats => {
-    const headers = <tr> {Object.keys(stats).map(x => (<th style={tableStyle}> {x} </th>))} </tr>
     const vals = Object.values(stats)
-    const listOfLists = (Array.isArray(vals[0])) ? zip(vals) : [vals]
-    const rows = listOfLists.map(row => <tr> {row.map(val => (<td style={tableStyle}> {val} </td>))} </tr>)
-    return <div style={{overflowX:'auto'}}><table style={{width:'50vw', margin:'auto', border:'black 1px solid'}}>{headers}{rows}</table></div>
+    const listOfLists = (Array.isArray(vals[0])) ? zip(vals) : [vals] //if single length then make it a list so zip doesn't break
+    return (
+      <div style={{overflowX:'auto'}}>
+        <table style={{width:'50vw', margin:'auto', border:'black 1px solid'}}>
+          <thead>
+            <tr>{Object.keys(stats).map((x,i) => (<th style={tableStyle} key={x+' '+i}>{x}</th>))}</tr>
+          </thead>
+          <tbody>
+            {listOfLists.map((row, index) => (
+            <tr key={row+' '+index}>
+              {row.map((val,i) => <td style={tableStyle} key={row+' '+val+' '+i}>{val}</td>)}
+            </tr>))}
+          </tbody>
+        </table>
+      </div>
+    )
   }
+  
   const updateTables = cardName => {
     const card = cardStats[cardName.replace(' ','_')]
     if (!card) return state
@@ -43,7 +57,9 @@ const ClashRoyale = () => {
     const attrTable = createTableElem(card["unit-attributes-table"])
     return {cardName, statsTable, attrTable}
   }
+  
   const [state, setState] = useState(updateTables('Archers'))
+
   return (
     <Layout>
       <SEO title="Clash Royale" />
@@ -52,7 +68,7 @@ const ClashRoyale = () => {
         onChange={e => setState(updateTables(e.target.value))}/>
       <br/><br/>
       <datalist id="cardnames">
-        {Object.keys(cardStats).sort().map(x => <option value={x.replace('_',' ')}/>)}
+        {Object.keys(cardStats).sort().map(x => <option value={x.replace('_',' ')} key={x}/>)}
       </datalist><br/>
       <h1 style={{textAlign:'center'}}>{state.cardName}</h1>
       {state.attrTable}<br/><br/><br/>
