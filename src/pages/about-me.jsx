@@ -4,8 +4,6 @@ import SEO from "../components/seo"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 
-
-
 const AboutMePage = () => {
   const imgData = useStaticQuery(graphql`
     query {

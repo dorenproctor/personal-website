@@ -1,10 +1,11 @@
 {
-  "name": "DorenProctor.com",
+  "name": "dorenproctor.com",
   "private": true,
   "description": "This website is meant to be my portfolio. It describes my work as a developer and will eventually have useful code for others on it.",
   "version": "0.1.0",
   "author": "Doren Proctor <dorenproctor@gmail.com>",
   "dependencies": {
+    "d3": "^5.14.2",
     "gatsby": "^2.17.6",
     "gatsby-image": "^2.2.30",
     "gatsby-plugin-manifest": "^2.2.25",
