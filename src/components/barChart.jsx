@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import * as d3 from 'd3'
 
-
 const BarChart = ({ width, height, data, barColor, id }) => {
   const d3Container = useRef(null)
   if (!width) width = 1000
@@ -9,18 +8,14 @@ const BarChart = ({ width, height, data, barColor, id }) => {
   if (!barColor) barColor = 'green'
   if (!id) id = 'barChart'+Date.now()
 
-  console.log('props changed')
-  
   function drawChart(data, d3Container) {
     if (!data || !d3Container.current) return
 
     const maxVal = Math.max(...data)
     const calculatedHeight = height / (maxVal*1.1)
     const calculatedWidth = width / (data.length+1)
-    console.log('calculatedHeight: '+calculatedHeight+'     calculatedWidth:'+calculatedWidth)
 
     const div = d3.select(d3Container.current)
-    console.log('drawChart data: '+data)
     const svg = div.append('svg')
       .attr('width', width)
       .attr('height', height)
@@ -33,7 +28,7 @@ const BarChart = ({ width, height, data, barColor, id }) => {
       .attr('x', (d, i) => i * (calculatedWidth + 5))
       .attr('y', (d, i) => height - (calculatedHeight * d))
       .attr('width', calculatedWidth)
-      .attr('height', (d, i) => (Number.MAX_VALUE)) //height goes down and gets cut off
+      .attr('height', height) //height goes down and gets cut off
       .attr('fill', barColor)
 
     svg.selectAll('text')
@@ -49,10 +44,8 @@ const BarChart = ({ width, height, data, barColor, id }) => {
   }
   
   useEffect(() => {
-    console.log('drawChart')
     drawChart(data, d3Container)
     return () => {
-      console.log('useEffect return')
       d3.select('#'+id).remove()
     }
   })
