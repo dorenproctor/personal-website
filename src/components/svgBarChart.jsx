@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import * as d3 from 'd3'
+import D3Tooltip, { addTooltipToD3Elems } from './d3tooltip'
 
 const data1 = [
   {name:'Shanghai', latitude:31.22222, longitude:121.45806, population:22315474, color:'orange'},
   {name:'Buenos Aires', latitude:-34.61315, longitude:-58.37723, population:13076300},
   {name:'Mumbai', latitude:19.07283, longitude:72.88261, population:66918036},
-  {name:'Some Place', latitude:19.07283, longitude:72.88261, population:1269186},
-  {name:'Another Place', latitude:19.07283, longitude:72.88261, population:126936},
-  {name:'Nowhere', latitude:19.07283, longitude:72.88261, population:1691836},
+  {name:'Some Place', latitude:19.07283, longitude:72.88261, population:41269186},
+  {name:'Another Place', latitude:19.07283, longitude:72.88261, population:1926936},
+  {name:'Nowhere', latitude:19.07283, longitude:72.88261, population:16911836},
   {name:'Somewhere', latitude:19.07283, longitude:72.88261, population:2691836},
 ]
 const data2 = [
@@ -39,9 +40,6 @@ const SvgBarChart = (props) => {
 
   useEffect(() => {
     render(filledProps)
-    return () => {
-      d3.select("#svgBarChartTooltip").remove()
-    }
   })
 
   
@@ -57,6 +55,7 @@ const SvgBarChart = (props) => {
       <svg id={id} style={{width, height, marginLeft:'auto', marginRight:'auto', position:'relative'}} >
         <g transform={'translate(' + margin.left + ',' + margin.top + ')'} />
       </svg>
+      <D3Tooltip/>
     </>
   )
 }
@@ -116,37 +115,7 @@ function render(props){
 
   texts.exit().remove()
 
-  const tooltip = d3.select("body").append("div")
-    .attr("id", "svgBarChartTooltip")
-    .style("opacity", 0)
-    .style('position', 'absolute')
-    .style('text-align', 'center')
-    .style('width', '200px')
-    .style('padding', '2px')
-    .style('font', '12px sans-serif')
-    .style('background', 'lightsteelblue')
-    .style('border', '0px')
-    .style('border-radius', '8px')
-    .style('pointer-events', 'none')
-
-  function addTooltipFunctionality(d3Elems) {
-    d3Elems
-      .on("mouseover", d => {
-        tooltip.style("opacity", .9)
-        tooltip.html(d.name)
-          .style("left", (d3.event.pageX) + "px")
-          .style("top", (d3.event.pageY - 28) + "px")
-        })
-      .on("mousemove", d => {
-        tooltip.html(JSON.stringify(d,null,2).replace(/\n/g, '<br/>'))
-          .style("left", (d3.event.pageX) + "px")
-          .style("top", (d3.event.pageY - 28) + "px")
-      })
-      .on("mouseout", d => tooltip.style("opacity", 0))
-  }
-
-  addTooltipFunctionality(g.selectAll('rect'))
-  addTooltipFunctionality(g.selectAll('text'))
+  addTooltipToD3Elems(g.selectAll('rect,text'))
 }
 
 
