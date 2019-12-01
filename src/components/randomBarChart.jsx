@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import BarChart from './barChart'
+// import BarChart from './barChart'
+import AnimatedBarChart from './animatedBarChart'
 
 const RandomBarChart = () => {
   const [data, setData] = useState([8, 5, 6, 9, 10])
@@ -39,7 +40,8 @@ const RandomBarChart = () => {
       Number of bars: <input type="number" onChange={numBarsChange} value={numBars}/><br/>
       Minimum value: <input type="number" onChange={lowerBoundChange} value={lowerBound}/><br/>
       Maximum value: <input type="number" onChange={upperBoundChange} value={upperBound}/><br/>
-      <BarChart data={data} id='randomBarChart' barColor='purple'/>
+      {/* <BarChart data={data} id='randomBarChart' barColor='purple'/> */}
+      <AnimatedBarChart data={data} width='1000px' id='randomBarChart' barColor='purple'/>
     </>
   )
 }
