@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import * as d3 from 'd3'
-import D3Tooltip, { addTooltipToD3Elems } from './d3tooltip'
+import D3Tooltip, { addTooltipToD3Elems } from './d3Tooltip'
 
 const data1 = [
   {name:'Shanghai', latitude:31.22222, longitude:121.45806, population:22315474, color:'orange'},
