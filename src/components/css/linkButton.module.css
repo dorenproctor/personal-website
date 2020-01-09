@@ -1,0 +1,40 @@
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 0 1vw;
+  height: 100%;
+  position: relative;
+  border-left: white solid 1px;
+  border-right: white solid 1px;
+  transition: background-color 1s;
+}
+
+.link:hover {
+  background-color: #853399;
+}
+
+.link:before, .link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transform: scaleX(0);
+  transition: all 0.5s;
+}
+
+.link:before {
+  top: 0;
+  left: 0;
+  transform-origin: left
+}
+
+.link:after {
+  bottom: 0;
+  left: 0;
+  transform-origin: right
+}
+
+.link:hover:before, .link:hover:after {
+  transform: scaleX(1);
+}

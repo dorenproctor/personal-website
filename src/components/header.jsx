@@ -1,5 +1,6 @@
 import React from "react"
 import LinkButton from "./linkButton"
+import css from './css/header.module.css'
 
 const linkButtons = [
   {label:'Home', link:'/'},
@@ -7,14 +8,13 @@ const linkButtons = [
   {label:'Work Experience', link:'/work-experience/'},
   {label:'Resume', link:'/resume/'},
   {label:'Clash Royale', link:'/clash-royale/'},
-  {label:'Visualizations', link:'/visualizations/'},
-].map(x => <div style={{display: 'inline-block'}} key={x.label}><LinkButton label={x.label} link={x.link} />&nbsp;|&nbsp;</div>)
+  {label:'D3', link:'/visualizations/'},
+]
 
 const Header = () => (
-  <header style={{ background: 'rebeccapurple', marginBottom: '1.45rem', width: '100%'}}>
-    <h1 className="headerText">
-      |&nbsp;
-      {linkButtons}
+  <header className={css.headerHeader}>
+    <h1 className={css.headerH1}>
+      {linkButtons.map(x => <LinkButton label={x.label} link={x.link} key={x.label}/>)}
     </h1>
   </header>
 )

@@ -1,15 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import css from './css/linkButton.module.css'
 
 const LinkButton = ({ label, link }) => (
-  <Link
-    to={link}
-    style={{
-      color: `white`,
-      textDecoration: `none`,
-    }}
-  >
-  {label}
+  <Link className={css.link} to={link} >
+    {label}
   </Link>
 )
 

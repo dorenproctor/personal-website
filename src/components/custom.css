@@ -13,19 +13,3 @@ html, body {
   width: 100vw;
   height: 100vh;
 }
-
-
-.headerText { 
-  width:100%;
-  text-align: center;
-  padding: 1.45rem 1.0875rem;
-  margin: 0;
-  white-space: nowrap;
-  font-size: 2.5vw;
-}
-
-/* @media only screen and (max-width: 480px)  {
-  .headerText {
-    font-size: .7rem;
-  }
-} */

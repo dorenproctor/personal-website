@@ -23,7 +23,7 @@ const VideoModal = ({src, buttonLabel}) => {
         {buttonLabel}
       </button>
       <ReactModal isOpen={open} onRequestClose={() => setOpen(false)} style={modalStyle} >
-        <video controls style={{width: '100%', maxHeight:'80vh'}}>
+        <video muted controls style={{width: '100%', maxHeight:'80vh'}}>
           <source src={src} type="video/mp4" />
         </video>
         <button onClick={() => setOpen(false)} style={{backgroundColor:'none', position:'absolute', top:'5px', right:'5px'}}>X</button>
