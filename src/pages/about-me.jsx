@@ -24,11 +24,11 @@ const AboutMePage = () => {
           <Img fluid={imgData.placeholderImage.childImageSharp.fluid}/>
         </div>
       <h1>About Me</h1>
-      <p>My name is Doren and I'm a developer.</p>
-      <p>I want to have a solid understanding of everything that goes into a software project and I'm especially interested in web development and data science.</p>
-      <p>JavaScript and Python are wonderful tools and are currently my languages of choice.</p>
-      <p>In addition to coding at work and sometimes outside of work, I spend a lot of time reading articles, watching videos, and listening to podcasts about software
-        development.</p>
+      <br/>
+      <p>My name is Doren and I'm a software developer based in Portland, Oregon. All areas of software development interest me and I am particularly interested in web development, data science, and the connection between the two. </p>
+      <p>Javascript is my language of choice and I enjoy working in React. I have used Vue a little and like everything I've seen so far. Python is my second favorite language because of its prominence in the data community, its libraries, and its ease of use. I'm also pretty comfortable with HTML, CSS, SQL, Java syntax, a Unix terminal, Git, Google, and more, plus there are many, many things I am interested in learning.</p>
+      <p>Efficiency (in terms of code performance, developer experience, user experience, and everything else) is very important to me as well as reusability, privacy, and security. I also value collaboration very highly. I enjoy spending my time helping others solve problems and learn, and having others to come to for help and insight when I get stuck myself is extremely helpful and appreciated.</p>
+      <p>Like many developers, I consider myself a lifelong learner. In addition to plenty of learning in a professional environment, I spend a lot of free time listening to podcasts, watching videos, and reading articles, forums, and sometimes books on software topics. I also have a Bachelor's degree in Computer Science with a minor in Mathematics.</p>
     </Layout>
   )
 }
