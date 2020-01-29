@@ -9,7 +9,7 @@ p, h1,h2,h3,h4,h5,h6, a, div {
 }
 
 p {
-  width: 60%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -19,4 +19,10 @@ html, body {
   overflow: auto;
   width: 100vw;
   height: 100vh;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    width: 60%;
+  }
 }
