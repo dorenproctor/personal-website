@@ -28,21 +28,21 @@ import cardStats from '../assets/cardStats'
 
 const ClashRoyale = () => {
   const zip = arrs => arrs[0].map((_,c)=>arrs.map(row=>row[c])) //like Python's zip function
-  const tableStyle = {textAlign:'center', border:'black 1px solid', paddingRight:'10px', paddingLeft:'10px'}
+  const rowStyle = {textAlign:'center', border:'lightgray 1px solid', paddingRight:'10px', paddingLeft:'10px'}
   
   const createTableElem = stats => {
     const vals = Object.values(stats)
     const listOfLists = (Array.isArray(vals[0])) ? zip(vals) : [vals] //if single length then make it a list so zip doesn't break
     return (
       <div style={{overflowX:'auto'}}>
-        <table style={{width:'50vw', margin:'auto', border:'black 1px solid'}}>
+        <table style={{width:'50vw', margin:'auto', border:'lightgray 1px solid'}}>
           <thead>
-            <tr>{Object.keys(stats).map((x,i) => (<th style={tableStyle} key={x+' '+i}>{x}</th>))}</tr>
+            <tr>{Object.keys(stats).map((x,i) => (<th style={rowStyle} key={x+' '+i}>{x}</th>))}</tr>
           </thead>
           <tbody>
             {listOfLists.map((row, index) => (
             <tr key={row+' '+index}>
-              {row.map((val,i) => <td style={tableStyle} key={row+' '+val+' '+i}>{val}</td>)}
+              {row.map((val,i) => <td style={rowStyle} key={row+' '+val+' '+i}>{val}</td>)}
             </tr>))}
           </tbody>
         </table>
