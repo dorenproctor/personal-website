@@ -7,8 +7,7 @@ const linkButtons = [
   {label:'About Me', link:'/about-me/'},
   {label:'Work Experience', link:'/work-experience/'},
   {label:'Resume', link:'/resume/'},
-  {label:'Clash Royale', link:'/clash-royale/'},
-  {label:'D3', link:'/visualizations/'},
+  {label:'Other', link:'/other-pages/'},
 ]
 
 const Header = () => (

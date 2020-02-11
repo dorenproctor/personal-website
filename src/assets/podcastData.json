@@ -1,0 +1,1295 @@
+{
+  "Full Stack Radio": [
+    {
+      "title": "128: Alasdair Monk - Scaling CSS at Heroku with Utility Classes",
+      "length": "61:11",
+      "percentWatched": 0.02719999999999345
+    },
+    {
+      "title": "115: Jason Lengstorf - Gatsby for Skeptics",
+      "length": "55:24",
+      "percentWatched": 99.884716
+    },
+    {
+      "title": "114: Sebastian De Deyne - React for Vue Developers",
+      "length": "64:16",
+      "percentWatched": 0.07779999999999632
+    },
+    {
+      "title": "107: Sam Selikoff - Pushing Complexity to the Client-Side",
+      "length": "50:00",
+      "percentWatched": 98.36067
+    },
+    {
+      "title": "98: Ryan Chenkie - Securing Single Page Applications",
+      "length": "57:46",
+      "percentWatched": 99.476623
+    },
+    {
+      "title": "87: Chris Fritz - Vue.js Anti-Patterns (and How to Avoid Them)",
+      "length": "70:15",
+      "percentWatched": 99.986787
+    },
+    {
+      "title": "82: Sarah Drasner - Animating the Web with CSS and JavaScript",
+      "length": "50:46",
+      "percentWatched": 0.13129999999999598
+    },
+    {
+      "title": "78: Ben Orenstein - Our All-Time Favorite Refactorings",
+      "length": "50:37",
+      "percentWatched": 0.23040000000000305
+    },
+    {
+      "title": "42: Justin Jackson - Marketing for Developers",
+      "length": "52:39",
+      "percentWatched": 99.490613
+    },
+    {
+      "title": "4: Alex Bilbie - OAuth 2 and API Security",
+      "length": "56:10",
+      "percentWatched": 99.9805083
+    }
+  ],
+  "JS Party": [
+    {
+      "title": "Lesser known things browsers can do in 2020",
+      "length": "67:26",
+      "percentWatched": 97.87343
+    },
+    {
+      "title": "Your code might be gross for a reason",
+      "length": "56:50",
+      "percentWatched": 98.44387
+    },
+    {
+      "title": "New Year's Party! 🎉",
+      "length": "70:56",
+      "percentWatched": 0.023499999999998522
+    },
+    {
+      "title": "Mentor-ship 🛳️",
+      "length": "54:45",
+      "percentWatched": 99.601381
+    },
+    {
+      "title": "There’s no server more secure than one that doesn’t exist",
+      "length": "45:27",
+      "percentWatched": 99.99658978
+    },
+    {
+      "title": "Ohhh! Caching!!",
+      "length": "57:30",
+      "percentWatched": 98.65829
+    },
+    {
+      "title": "Websites should work without JS. Yep? Nope?",
+      "length": "53:48",
+      "percentWatched": 97.82699
+    },
+    {
+      "title": "An honest conversation about burnout",
+      "length": "62:26",
+      "percentWatched": 99.119507
+    },
+    {
+      "title": "Developer strengths and weaknesses 🏋️‍♂️",
+      "length": "57:00",
+      "percentWatched": 98.41078
+    },
+    {
+      "title": "Wow, Gatsby is a mashup on steroids",
+      "length": "70:23",
+      "percentWatched": 97.48703
+    },
+    {
+      "title": "The future of the web is npm, but maybe not JavaScript",
+      "length": "44:58",
+      "percentWatched": 97.79261
+    },
+    {
+      "title": "Serverless? We don’t need no stinkin’ SERVERS",
+      "length": "65:34",
+      "percentWatched": 99.296462
+    },
+    {
+      "title": "REST easy, GraphQL is here",
+      "length": "64:26",
+      "percentWatched": 98.59372
+    },
+    {
+      "title": "ML in JS... well... yes?",
+      "length": "53:43",
+      "percentWatched": 0.03100000000000591
+    },
+    {
+      "title": "🎊 TS Party! 🎊",
+      "length": "59:07",
+      "percentWatched": 99.9757319
+    },
+    {
+      "title": "PWAs to eat the world. Or maybe not. News at 11!",
+      "length": "56:25",
+      "percentWatched": 97.1213
+    }
+  ],
+  "Front End Happy Hour": [
+    {
+      "title": "Episode 091 - Balancing your drinks & belonging - Inclusion & Diversity in Tech",
+      "length": "59:27",
+      "percentWatched": 98.99353
+    },
+    {
+      "title": "Episode 089 - Hollywood Martinis - Netflix Studio Engineering",
+      "length": "35:26",
+      "percentWatched": 95.33444
+    },
+    {
+      "title": "Episode 088 - Tech lead engineer - herding cats & drinks",
+      "length": "53:29",
+      "percentWatched": 99.9842966
+    },
+    {
+      "title": "Episode 087 - Open bar - all things open source",
+      "length": "47:26",
+      "percentWatched": 98.35481
+    },
+    {
+      "title": "Episode 082 - Product management - Pouring Martinis",
+      "length": "55:34",
+      "percentWatched": 100
+    },
+    {
+      "title": "Episode 081 - CSS - continually sipping sazeracs",
+      "length": "39:00",
+      "percentWatched": 99.978637
+    },
+    {
+      "title": "Episode 080 - User experience - what if users are drunk?",
+      "length": "52:07",
+      "percentWatched": 100
+    },
+    {
+      "title": "Episode 078 - Our drinks are overrated",
+      "length": "34:48",
+      "percentWatched": 99.9820435
+    },
+    {
+      "title": "Episode 077 - Career growth - beers and careers",
+      "length": "48:29",
+      "percentWatched": 99.9742246
+    },
+    {
+      "title": "Episode 075 - Component libraries - sharing our drinks",
+      "length": "44:35",
+      "percentWatched": 99.9673004
+    },
+    {
+      "title": "Episode 074 - Beer money - negotiating salaries",
+      "length": "52:14",
+      "percentWatched": 99.99524592
+    },
+    {
+      "title": "Episode 073 - Drinks to go - Native mobile solutions",
+      "length": "48:24",
+      "percentWatched": 0.37879999999999825
+    },
+    {
+      "title": "Episode 072 - Pacing our drinks - Engineering Performance",
+      "length": "51:06",
+      "percentWatched": 3.4891999999999967
+    },
+    {
+      "title": "Episode 071 - Web Performance - Chugging our drinks down fast",
+      "length": "46:00",
+      "percentWatched": 99.9728335
+    },
+    {
+      "title": "Episode 070 - Senior Engineer - Master Brewer",
+      "length": "38:11",
+      "percentWatched": 99.9831107
+    },
+    {
+      "title": "Episode 068 - Progressive Web Apps - Pale Wheat Ale",
+      "length": "52:36",
+      "percentWatched": 98.79006
+    },
+    {
+      "title": "Episode 066 - Type systems - a static drink list",
+      "length": "50:34",
+      "percentWatched": 99.99034371
+    },
+    {
+      "title": "Episode 065 - Recruiting - do you have time for a quick beer?",
+      "length": "58:50",
+      "percentWatched": 99.99396637
+    },
+    {
+      "title": "Episode 064 - Librations - JavaScript libraries",
+      "length": "46:03",
+      "percentWatched": 99.9807493
+    },
+    {
+      "title": "Episode 063 - IoT - Internet of Tequila",
+      "length": "51:13",
+      "percentWatched": 98.95062
+    },
+    {
+      "title": "Episode 062 - Web Components - shots of shadow dom",
+      "length": "42:55",
+      "percentWatched": 0.03879999999999484
+    },
+    {
+      "title": "Episode 061 - Build tooling - brewing complex bundles",
+      "length": "51:58",
+      "percentWatched": 99.9759519
+    },
+    {
+      "title": "Episode 060 - Shots to growlers - finding the right size drink",
+      "length": "57:20",
+      "percentWatched": 0.02909999999999968
+    },
+    {
+      "title": "Episode 059 - A/B testing - Ale or Bourbon?",
+      "length": "49:23",
+      "percentWatched": 99.978911
+    },
+    {
+      "title": "Episode 058 - User testing - Even a drunk person can do it",
+      "length": "47:03",
+      "percentWatched": 99.9822915
+    },
+    {
+      "title": "Episode 057 - Falcor - Modeling our drinks",
+      "length": "48:33",
+      "percentWatched": 1.5103000000000009
+    },
+    {
+      "title": "Episode 056 - Drink-a-thon onstage at Reactathon",
+      "length": "30:17",
+      "percentWatched": 99.9452694
+    },
+    {
+      "title": "Episode 055 - A mixologist's tools",
+      "length": "53:39",
+      "percentWatched": 99.99527826
+    },
+    {
+      "title": "Episode 053 - Bar-tending to your codebase",
+      "length": "51:16",
+      "percentWatched": 0.09749999999999659
+    },
+    {
+      "title": "Episode 052 - Looking Forward to a drink",
+      "length": "38:25",
+      "percentWatched": 100
+    },
+    {
+      "title": "Episode 051 - Gin and toxic culture",
+      "length": "54:01",
+      "percentWatched": 0.12340000000000373
+    },
+    {
+      "title": "Episode 050 - Angling for a drink",
+      "length": "45:33",
+      "percentWatched": 99.99571917
+    },
+    {
+      "title": "Episode 049 - Independent taste testing",
+      "length": "69:50",
+      "percentWatched": 99.9899056
+    },
+    {
+      "title": "Episode 047 - Speak(easy)",
+      "length": "49:40",
+      "percentWatched": 87.133
+    },
+    {
+      "title": "Episode 046 - Locking down the liquor",
+      "length": "49:55",
+      "percentWatched": 99.9781016
+    },
+    {
+      "title": "Episode 045 - Getting the bartender's attention",
+      "length": "53:46",
+      "percentWatched": 99.9748358
+    },
+    {
+      "title": "Episode 044 - Champagne ideas and caviar dreams",
+      "length": "50:29",
+      "percentWatched": 95.72142
+    },
+    {
+      "title": "Episode 039 - Smashed after a Swift shot",
+      "length": "51:29",
+      "percentWatched": 0.1617999999999995
+    },
+    {
+      "title": "Episode 038 - Plotting our drinks",
+      "length": "56:33",
+      "percentWatched": 99.9815831
+    },
+    {
+      "title": "Episode 035 - Top shelf style guides",
+      "length": "59:30",
+      "percentWatched": 100
+    },
+    {
+      "title": "Episode 032 - Imposter Syndrome - These are not the drinks you're looking for",
+      "length": "44:35",
+      "percentWatched": 98.65747
+    },
+    {
+      "title": "Episode 030 - Static site generators and dynamic drink drinkers",
+      "length": "55:40",
+      "percentWatched": 99.99727552
+    },
+    {
+      "title": "Episode 022 - Drinking with more style and less sass",
+      "length": "52:54",
+      "percentWatched": 99.968494
+    },
+    {
+      "title": "Episode 012 - Ninja rockstar whiskey drinker with 10 years IPA experience",
+      "length": "55:17",
+      "percentWatched": 99.9736277
+    },
+    {
+      "title": "Episode 011 - Transpilers - slow down and drink",
+      "length": "45:55",
+      "percentWatched": 99.9818545
+    },
+    {
+      "title": "Episode 001 - The state of web development",
+      "length": "48:08",
+      "percentWatched": 99.528012
+    }
+  ],
+  "Syntax": [
+    {
+      "title": "Potluck - Dev Culture Fit × Slack Communities × Vanilla JS × Backpacks × Raspberry Pi × More!",
+      "length": "60:37",
+      "percentWatched": 99.083342
+    },
+    {
+      "title": "Tech To Watch In 2020",
+      "length": "55:27",
+      "percentWatched": 99.409971
+    },
+    {
+      "title": "Hasty Treat - Modules in Node",
+      "length": "18:16",
+      "percentWatched": 99.9219588
+    },
+    {
+      "title": "2019 YEAR END Definitely Not a Clip Show",
+      "length": "57:14",
+      "percentWatched": 99.614471
+    },
+    {
+      "title": "State Machines, CSS and Animations with David K Piano",
+      "length": "53:50",
+      "percentWatched": 99.107015
+    },
+    {
+      "title": "Hasty Treat - The New MacBook Pro for Web Development",
+      "length": "21:33",
+      "percentWatched": 98.07384
+    },
+    {
+      "title": "Hasty Treat - What Are Github Actions?",
+      "length": "16:16",
+      "percentWatched": 98.41441
+    },
+    {
+      "title": "Potluck - Tabs are better? × Coding Music × SEO × Is Angular good? × Biggie Smalls × Soy Sauce × More!",
+      "length": "55:48",
+      "percentWatched": 99.99112982
+    },
+    {
+      "title": "Design Foundations For Developers",
+      "length": "61:47",
+      "percentWatched": 99.437063
+    },
+    {
+      "title": "Potluck - Gatsby vs Next × Is Google Home spying on you? × Flat File CMS × CSS Frameworks × Hosting Client Sites × More!",
+      "length": "59:40",
+      "percentWatched": 99.99843578
+    },
+    {
+      "title": "Hasty Treat - Spooky Stories",
+      "length": "21:17",
+      "percentWatched": 98.50034
+    },
+    {
+      "title": "Spooky Web Dev Horror Stories",
+      "length": "45:42",
+      "percentWatched": 99.814011
+    },
+    {
+      "title": "Migrating, Deploying, and Hosting WordPress",
+      "length": "62:27",
+      "percentWatched": 99.99223439
+    },
+    {
+      "title": "Hasty Treat - React Server Side Rendering",
+      "length": "23:38",
+      "percentWatched": 99.9517863
+    },
+    {
+      "title": "The Fundamentals - Server Side",
+      "length": "55:17",
+      "percentWatched": 99.97866
+    },
+    {
+      "title": "Desktop & Mobile Apps With a Single Codebase",
+      "length": "57:24",
+      "percentWatched": 99.304779
+    },
+    {
+      "title": "Practical: How would we build Airbnb, Twitter, or Reddit?",
+      "length": "51:56",
+      "percentWatched": 99.9877422
+    },
+    {
+      "title": "Hasty Treat - Automating Stuff",
+      "length": "23:54",
+      "percentWatched": 98.74675
+    },
+    {
+      "title": "Potluck - Why Webpack? × Serverless × Agencies × Recruiters × CSS Grid × MQ in Styled Components",
+      "length": "59:27",
+      "percentWatched": 99.99868238
+    },
+    {
+      "title": "Hasty Treat - How To Publish A React Component To NPM",
+      "length": "17:47",
+      "percentWatched": 98.43082
+    },
+    {
+      "title": "State In React",
+      "length": "55:13",
+      "percentWatched": 99.99429553
+    },
+    {
+      "title": "Hasty Treat - VSCode Love Part 3",
+      "length": "18:48",
+      "percentWatched": 99.9519734
+    },
+    {
+      "title": "Potluck - What is \"State\"? × Web Sockets × Remote Working × Firefox × Machines Taking Our Jobs × More!",
+      "length": "55:01",
+      "percentWatched": 99.9892468
+    },
+    {
+      "title": "GraphQL and WordPress",
+      "length": "64:15",
+      "percentWatched": 0.8819000000000017
+    },
+    {
+      "title": "Hasty Treat - Front End Security",
+      "length": "20:07",
+      "percentWatched": 99.9188728
+    },
+    {
+      "title": "Hasty Treat - What is a Headless CMS?",
+      "length": "17:21",
+      "percentWatched": 99.99442874
+    },
+    {
+      "title": "Potluck - Career Switch at 33 × Cover Letters × Kids × Learning Quickly × More!",
+      "length": "58:30",
+      "percentWatched": 99.9718598
+    },
+    {
+      "title": "SVGs with Sara Soueidan",
+      "length": "61:07",
+      "percentWatched": 99.408457
+    },
+    {
+      "title": "Gatsby Themes",
+      "length": "57:14",
+      "percentWatched": 99.9778151
+    },
+    {
+      "title": "Hasty Treat - AMA - Money x Investments x Online Presence x More!",
+      "length": "23:14",
+      "percentWatched": 98.31699
+    },
+    {
+      "title": "Hasty Treat - CSS Frameworks",
+      "length": "27:28",
+      "percentWatched": 0.18200000000000216
+    },
+    {
+      "title": "9 Ways to Stay Sane While Working Remotely",
+      "length": "51:20",
+      "percentWatched": 0.03249999999999886
+    },
+    {
+      "title": "Syntax Live React Edition",
+      "length": "66:15",
+      "percentWatched": 0.6038000000000068
+    },
+    {
+      "title": "Hasty Treat - Tips For A Good Portfolio",
+      "length": "20:44",
+      "percentWatched": 99.99340879
+    },
+    {
+      "title": "The VueJS Show (Scott teaches Wes)",
+      "length": "57:02",
+      "percentWatched": 99.9789641
+    },
+    {
+      "title": "Hasty Treat - Why Use a Frontend Framework at All?",
+      "length": "20:29",
+      "percentWatched": 98.46561
+    },
+    {
+      "title": "Hasty Treat - Communication Skillz",
+      "length": "16:31",
+      "percentWatched": 99.9018119
+    },
+    {
+      "title": "Potluck - Are classes dead? × Tutorials vs Real Life × CRA vs Next × Scraping × More",
+      "length": "45:47",
+      "percentWatched": 99.513135
+    },
+    {
+      "title": "Hasty Treat - Authentication: LocalStorage vs Cookies vs Sessions vs Tokens",
+      "length": "16:49",
+      "percentWatched": 99.582349
+    },
+    {
+      "title": "Gatsby vs Next",
+      "length": "52:22",
+      "percentWatched": 99.442138
+    },
+    {
+      "title": "Potluck - $100/hr × Redux Replacements × Full Stack Designers × JWT × VS Code Tips × More",
+      "length": "52:52",
+      "percentWatched": 99.99104746
+    },
+    {
+      "title": "React Hooks",
+      "length": "59:06",
+      "percentWatched": 99.99875918
+    },
+    {
+      "title": "11 Habits of Highly Effective Developers",
+      "length": "49:36",
+      "percentWatched": 99.9771893
+    },
+    {
+      "title": "Hasty Treat - Reading Documentation",
+      "length": "33:08",
+      "percentWatched": 99.9620868
+    },
+    {
+      "title": "Accessibility",
+      "length": "74:07",
+      "percentWatched": 0.045000000000001705
+    },
+    {
+      "title": "Hasty Treat - Stumped! Interview Questions",
+      "length": "30:12",
+      "percentWatched": 99.9648578
+    },
+    {
+      "title": "Potluck - Programming Languages × Soft Skills × PHP vs JS × Breakdancing x Spice Blends",
+      "length": "65:39",
+      "percentWatched": 75.7781
+    },
+    {
+      "title": "Hasty Treat - JSON, JSONP and CORS",
+      "length": "17:12",
+      "percentWatched": 98.03285
+    },
+    {
+      "title": "The Undocumented Web: scraping, private APIs, proxies and “alternative solutions”",
+      "length": "64:57",
+      "percentWatched": 99.9979985
+    },
+    {
+      "title": "Progressive Web Apps",
+      "length": "59:55",
+      "percentWatched": 99.608464
+    },
+    {
+      "title": "SSR, SEO, Tips for Students, music, security and GraphQL",
+      "length": "60:46",
+      "percentWatched": 48.8475
+    },
+    {
+      "title": "How to Get Better at Debugging",
+      "length": "56:59",
+      "percentWatched": 87.9299
+    },
+    {
+      "title": "How to Learn New Things Quickly",
+      "length": "62:44",
+      "percentWatched": 99.9789364
+    },
+    {
+      "title": "Why Static Site Generators are Awesome",
+      "length": "64:35",
+      "percentWatched": 0.02580000000000382
+    },
+    {
+      "title": "Large Files - CDNs, Image Compression, Video Hosting, and Big Zips",
+      "length": "68:44",
+      "percentWatched": 99.99801168
+    },
+    {
+      "title": "Snack Pack — CSS Frameworks, React HOC, Render Props, Coding Designers, Early Career Advice and a sound board!",
+      "length": "63:10",
+      "percentWatched": 99.777177
+    },
+    {
+      "title": "GraphQL? Here is what you need to know!",
+      "length": "66:41",
+      "percentWatched": 98.06158
+    },
+    {
+      "title": "All About Redux && Cookies vs JWT",
+      "length": "26:00",
+      "percentWatched": 98.67791
+    },
+    {
+      "title": "What's New in CSS? Variables, Scoping, New Selectors and Color Functions",
+      "length": "58:16",
+      "percentWatched": 99.795489
+    },
+    {
+      "title": "22 Buzz Words Explained — Mutations, Pure Functions , Serverless, Hoisting, MVC + More",
+      "length": "64:53",
+      "percentWatched": 99.99791939
+    }
+  ],
+  "Talking Code": [
+    {
+      "title": "How to Become an Effective Junior Developer",
+      "length": "43:24",
+      "percentWatched": 99.9783457
+    },
+    {
+      "title": "Making the Most of Your Analytics",
+      "length": "43:52",
+      "percentWatched": 0.7218000000000018
+    },
+    {
+      "title": "How to Deliver a Successful User Experience",
+      "length": "49:46",
+      "percentWatched": 97.98961
+    },
+    {
+      "title": "How to Launch Products in Under Two Weeks",
+      "length": "40:33",
+      "percentWatched": 97.20122
+    },
+    {
+      "title": "Going from Junior to Senior Developer",
+      "length": "45:13",
+      "percentWatched": 99.9702263
+    },
+    {
+      "title": "How to Do Information Architecture",
+      "length": "37:51",
+      "percentWatched": 97.37373
+    },
+    {
+      "title": "The Rise of the Data Scientist",
+      "length": "41:29",
+      "percentWatched": 99.9643759
+    },
+    {
+      "title": "How to Do User Story Mapping",
+      "length": "51:32",
+      "percentWatched": 0.3556999999999988
+    },
+    {
+      "title": "How to Keep Code Quality High",
+      "length": "40:30",
+      "percentWatched": 99.9671713
+    },
+    {
+      "title": "Why Your First Developer is Critical",
+      "length": "48:49",
+      "percentWatched": 98.54305
+    },
+    {
+      "title": "How to Build Meaningful Products",
+      "length": "31:19",
+      "percentWatched": 97.79826
+    },
+    {
+      "title": "Stop Designing Your Software Upfront",
+      "length": "44:27",
+      "percentWatched": 97.63216
+    },
+    {
+      "title": "How to Ship Well-Tested Software Faster",
+      "length": "57:03",
+      "percentWatched": 98.43569
+    }
+  ],
+  "Practical AI": [
+    {
+      "title": "AI for search at Etsy",
+      "length": "46:14",
+      "percentWatched": 99.168692
+    },
+    {
+      "title": "Open source data labeling tools",
+      "length": "44:20",
+      "percentWatched": 99.99860904
+    },
+    {
+      "title": "It's time to talk time series",
+      "length": "42:45",
+      "percentWatched": 99.99781681
+    },
+    {
+      "title": "AI in the browser",
+      "length": "49:39",
+      "percentWatched": 97.96209
+    },
+    {
+      "title": "Blacklisted facial recognition and surveillance companies",
+      "length": "49:25",
+      "percentWatched": 99.99237832
+    },
+    {
+      "title": "Flying high with AI drone racing at AlphaPilot",
+      "length": "47:48",
+      "percentWatched": 98.4194
+    },
+    {
+      "title": "The influence of open source on AI development",
+      "length": "45:31",
+      "percentWatched": 97.92752
+    },
+    {
+      "title": "AutoML and AI at Google",
+      "length": "58:38",
+      "percentWatched": 99.9895406
+    },
+    {
+      "title": "On being humAIn",
+      "length": "55:52",
+      "percentWatched": 99.9908123
+    },
+    {
+      "title": "Serving deep learning models with RedisAI",
+      "length": "46:16",
+      "percentWatched": 99.393913
+    },
+    {
+      "title": "AI code that facilitates good science",
+      "length": "53:00",
+      "percentWatched": 98.02682
+    },
+    {
+      "title": "Celebrating episode 50 and the neural net!",
+      "length": "50:54",
+      "percentWatched": 98.845
+    },
+    {
+      "title": "Exposing the deception of DeepFakes",
+      "length": "55:15",
+      "percentWatched": 99.9880256
+    },
+    {
+      "title": "Model inspection and interpretation at Seldon",
+      "length": "43:43",
+      "percentWatched": 99.710474
+    },
+    {
+      "title": "GANs, RL, and transfer learning oh my!",
+      "length": "51:32",
+      "percentWatched": 99.9899428
+    },
+    {
+      "title": "Visualizing and understanding RNNs",
+      "length": "46:18",
+      "percentWatched": 98.55433
+    },
+    {
+      "title": "How to get plugged into the AI community",
+      "length": "62:21",
+      "percentWatched": 99.99064509
+    },
+    {
+      "title": "AI adoption in the enterprise",
+      "length": "57:09",
+      "percentWatched": 98.3787
+    },
+    {
+      "title": "When AI meets quantum mechanics",
+      "length": "62:09",
+      "percentWatched": 99.094396
+    },
+    {
+      "title": "Deep Reinforcement Learning",
+      "length": "45:35",
+      "percentWatched": 98.12466
+    },
+    {
+      "title": "Making the world a better place at the AI for Good Foundation",
+      "length": "51:38",
+      "percentWatched": 99.9728286
+    },
+    {
+      "title": "GIPHY's celebrity detector",
+      "length": "49:22",
+      "percentWatched": 99.743906
+    },
+    {
+      "title": "The landscape of AI infrastructure",
+      "length": "51:32",
+      "percentWatched": 98.72042
+    },
+    {
+      "title": "Staving off disaster through AI safety research",
+      "length": "50:59",
+      "percentWatched": 97.26326
+    },
+    {
+      "title": "AI for social good at Intel",
+      "length": "37:57",
+      "percentWatched": 97.52705
+    },
+    {
+      "title": "GirlsCoding.org empowers young women to embrace computer science",
+      "length": "40:36",
+      "percentWatched": 1.108000000000004
+    },
+    {
+      "title": "How Microsoft is using AI to help the Earth",
+      "length": "44:40",
+      "percentWatched": 99.9670631
+    },
+    {
+      "title": "IBM's AI for detecting neurological state",
+      "length": "41:43",
+      "percentWatched": 95.9972
+    },
+    {
+      "title": "2018 in review and bold predictions for 2019",
+      "length": "42:23",
+      "percentWatched": 0.15720000000000312
+    },
+    {
+      "title": "Finding success with AI in the enterprise",
+      "length": "40:41",
+      "percentWatched": 100
+    },
+    {
+      "title": "So you have an AI model, now what?",
+      "length": "39:53",
+      "percentWatched": 99.9776064
+    },
+    {
+      "title": "BERT: one NLP model to rule them all",
+      "length": "38:53",
+      "percentWatched": 99.99061383
+    },
+    {
+      "title": "Analyzing AI's impact on society through art and film",
+      "length": "44:04",
+      "percentWatched": 98.59971
+    },
+    {
+      "title": "Getting into data science and AI",
+      "length": "30:11",
+      "percentWatched": 0.5520000000000067
+    },
+    {
+      "title": "Fighting bias in AI (and in hiring)",
+      "length": "41:03",
+      "percentWatched": 97.01266
+    },
+    {
+      "title": "PyTorch 1.0 vs TensorFlow 2.0",
+      "length": "44:19",
+      "percentWatched": 99.827304
+    },
+    {
+      "title": "Answering recent AI questions from Quora",
+      "length": "48:53",
+      "percentWatched": 97.9057
+    },
+    {
+      "title": "Behavioral economics and AI-driven decision making",
+      "length": "50:25",
+      "percentWatched": 98.22183
+    },
+    {
+      "title": "Eye tracking, Henry Kissinger on AI, Vim",
+      "length": "28:58",
+      "percentWatched": 99.9508297
+    },
+    {
+      "title": "Detecting planets with deep learning",
+      "length": "45:16",
+      "percentWatched": 2.3194000000000017
+    },
+    {
+      "title": "Data management, regulation, the future of AI",
+      "length": "48:25",
+      "percentWatched": 99.99146372
+    }
+  ],
+  "Data Skeptic": [
+    {
+      "title": "Interpretable One Shot Learning",
+      "length": "30:39",
+      "percentWatched": 0.054299999999997794
+    },
+    {
+      "title": "Fooling Computer Vision",
+      "length": "25:25",
+      "percentWatched": 0.13110000000000355
+    },
+    {
+      "title": "NLP in 2019",
+      "length": "38:42",
+      "percentWatched": 100
+    },
+    {
+      "title": "The Limits of NLP",
+      "length": "29:46",
+      "percentWatched": 99.496081
+    },
+    {
+      "title": "Serverless NLP Model Training",
+      "length": "29:01",
+      "percentWatched": 99.712809
+    },
+    {
+      "title": "NLP for Developers",
+      "length": "29:00",
+      "percentWatched": 100
+    },
+    {
+      "title": "Reproducing Deep Learning Models",
+      "length": "22:42",
+      "percentWatched": 98.86239
+    },
+    {
+      "title": "BERT is Shallow",
+      "length": "20:28",
+      "percentWatched": 99.084063
+    },
+    {
+      "title": "BERT is Magic",
+      "length": "18:00",
+      "percentWatched": 99.161249
+    },
+    {
+      "title": "Applied Data Science in Industry",
+      "length": "21:50",
+      "percentWatched": 99.99488576
+    },
+    {
+      "title": "Building the howto100m Video Corpus",
+      "length": "22:37",
+      "percentWatched": 99.99550499
+    },
+    {
+      "title": "BERT",
+      "length": "13:43",
+      "percentWatched": 99.756987
+    },
+    {
+      "title": "Catastrophic Forgetting",
+      "length": "21:26",
+      "percentWatched": 0.31100000000000705
+    },
+    {
+      "title": "Transfer Learning",
+      "length": "29:50",
+      "percentWatched": 100
+    },
+    {
+      "title": "Named Entity Recognition",
+      "length": "17:11",
+      "percentWatched": 99.837159
+    },
+    {
+      "title": "Data Infrastructure in the Cloud",
+      "length": "30:04",
+      "percentWatched": 99.611973
+    },
+    {
+      "title": "ELMo",
+      "length": "23:48",
+      "percentWatched": 99.99565845
+    },
+    {
+      "title": "Simultaneous Translation at Baidu",
+      "length": "24:09",
+      "percentWatched": 0.27599999999999625
+    },
+    {
+      "title": "Human vs Machine Transcription",
+      "length": "32:42",
+      "percentWatched": 0.10190000000000055
+    },
+    {
+      "title": "seq2seq",
+      "length": "21:40",
+      "percentWatched": 99.995231
+    },
+    {
+      "title": "Text Mining in R",
+      "length": "20:27",
+      "percentWatched": 99.99380641
+    },
+    {
+      "title": "Text World and Word Embedding Lower Bounds",
+      "length": "39:06",
+      "percentWatched": 0.1705000000000041
+    },
+    {
+      "title": "word2vec",
+      "length": "31:26",
+      "percentWatched": 99.9602491
+    },
+    {
+      "title": "Very Large Corpora and Zipf's Law",
+      "length": "24:10",
+      "percentWatched": 99.99606912
+    },
+    {
+      "title": "Semantic search at Github",
+      "length": "34:56",
+      "percentWatched": 99.99689895
+    },
+    {
+      "title": "Data Science Hiring Processes",
+      "length": "33:04",
+      "percentWatched": 99.9973791
+    },
+    {
+      "title": "Automated Fact Checking",
+      "length": "31:47",
+      "percentWatched": 99.9805491
+    },
+    {
+      "title": "Single Source of Truth",
+      "length": "29:29",
+      "percentWatched": 99.9717434
+    },
+    {
+      "title": "Detecting Fast Radio Bursts with Deep Learning",
+      "length": "44:50",
+      "percentWatched": 99.665427
+    },
+    {
+      "title": "Being Bayesian",
+      "length": "24:37",
+      "percentWatched": 99.9618291
+    },
+    {
+      "title": "The Knowledge Illusion",
+      "length": "40:00",
+      "percentWatched": 99.799651
+    },
+    {
+      "title": "Spam Filtering with Naive Bayes",
+      "length": "19:44",
+      "percentWatched": 99.574002
+    },
+    {
+      "title": "Dev Ops for Data Science",
+      "length": "38:19",
+      "percentWatched": 99.9813432
+    },
+    {
+      "title": "Transfer Learning",
+      "length": "18:03",
+      "percentWatched": 98.97855
+    },
+    {
+      "title": "The Loebner Prize",
+      "length": "33:20",
+      "percentWatched": 0.04999999999999716
+    },
+    {
+      "title": "Chatbots",
+      "length": "27:04",
+      "percentWatched": 99.9786991
+    },
+    {
+      "title": "[MINI] Markov Decision Processes",
+      "length": "20:23",
+      "percentWatched": 99.179014
+    },
+    {
+      "title": "Neuroscience Frontiers",
+      "length": "29:05",
+      "percentWatched": 39.7582
+    },
+    {
+      "title": "Neuroimaging and Big Data",
+      "length": "26:36",
+      "percentWatched": 99.9974938
+    },
+    {
+      "title": "[MINI] Activation Functions",
+      "length": "14:10",
+      "percentWatched": 99.9878838
+    },
+    {
+      "title": "Wikipedia Revision Scoring as a Service",
+      "length": "42:55",
+      "percentWatched": 99.9032806
+    },
+    {
+      "title": "[MINI] Term Frequency - Inverse Document Frequency",
+      "length": "10:16",
+      "percentWatched": 99.9078771
+    },
+    {
+      "title": "Neuroscience from a Data Scientist's Perspective",
+      "length": "40:17",
+      "percentWatched": 99.992181
+    }
+  ],
+  "Data Science Imposters": [
+    {
+      "title": "Privacy and Computer Science with Dr. Mihai Maruseac",
+      "length": "42:04",
+      "percentWatched": 99.668472
+    },
+    {
+      "title": "Mentoring with Reshama Shaikh",
+      "length": "38:28",
+      "percentWatched": 99.971845
+    },
+    {
+      "title": "Did you get my message?  Messaging and Queues",
+      "length": "47:46",
+      "percentWatched": 98.75453
+    },
+    {
+      "title": "Starting an Online Company: Talk with Moonllight.com Founders",
+      "length": "51:26",
+      "percentWatched": 99.651447
+    },
+    {
+      "title": "Complex Systems Do Not Add Up",
+      "length": "41:14",
+      "percentWatched": 99.61077
+    },
+    {
+      "title": "The Art of Digital War: Enter the Blockchain",
+      "length": "55:33",
+      "percentWatched": 99.853684
+    },
+    {
+      "title": "How do I become a serial tech entrepreneur? (with Elissa Shevinsky @ElissaBeth)",
+      "length": "49:53",
+      "percentWatched": 99.99281709
+    },
+    {
+      "title": "Economists do Data Science Differently w/ Dr. Peter Lorentzen",
+      "length": "49:49",
+      "percentWatched": 99.698596
+    },
+    {
+      "title": "Natural Language Processing with Prem Ganeshkumar",
+      "length": "53:05",
+      "percentWatched": 99.9899853
+    },
+    {
+      "title": "Reading Rainbowish Episode.",
+      "length": "37:43",
+      "percentWatched": 5.609999999999999
+    },
+    {
+      "title": "Web of data, companies, private information, Facebook, and those friends of yours that signed up for that questionnaire",
+      "length": "44:34",
+      "percentWatched": 99.9746512
+    },
+    {
+      "title": "Are you misbehaving?",
+      "length": "52:25",
+      "percentWatched": 99.99879175
+    }
+  ],
+  "Cyber Security Sauna": [
+    {
+      "title": "030| Talking Infosec to Non-Infosec Folks",
+      "length": "32:41",
+      "percentWatched": 99.9674252
+    },
+    {
+      "title": "029| Ask a Hacker: Red Teamer Answers Listener Questions",
+      "length": "33:23",
+      "percentWatched": 99.9861227
+    },
+    {
+      "title": "027| The Connected Home Meets the IoT Tire Fire",
+      "length": "33:52",
+      "percentWatched": 0.5412000000000035
+    },
+    {
+      "title": "026| Safe Browsing & Secure Web Development",
+      "length": "39:04",
+      "percentWatched": 99.9634946
+    },
+    {
+      "title": "025| The Psychology of Phishing",
+      "length": "36:46",
+      "percentWatched": 99.9567277
+    },
+    {
+      "title": "024| GDPR, One Year Later",
+      "length": "37:16",
+      "percentWatched": 99.817449
+    },
+    {
+      "title": "021| The Cloud: Security Benefits, Risks & Why You Should Use It",
+      "length": "30:59",
+      "percentWatched": 98.82847
+    },
+    {
+      "title": "017| Year in Cyber: Forecasting 2019, Recapping 2018",
+      "length": "38:54",
+      "percentWatched": 0.3855999999999966
+    },
+    {
+      "title": "016| Endpoint Protection & Beyond",
+      "length": "19:09",
+      "percentWatched": 99.9889481
+    },
+    {
+      "title": "014| Reinventing the Cold Boot Attack: Modern Laptop Version",
+      "length": "31:26",
+      "percentWatched": 99.718921
+    },
+    {
+      "title": "013| Passwords: A Hacker's Take on Cracking & Protecting Your Creds",
+      "length": "44:21",
+      "percentWatched": 100
+    },
+    {
+      "title": "012| Adventures in Red Teaming",
+      "length": "32:16",
+      "percentWatched": 99.772517
+    },
+    {
+      "title": "003| Data Breaches: Bridging the Gap",
+      "length": "17:16",
+      "percentWatched": 99.33034
+    },
+    {
+      "title": "002| Breaking Into Infosec: Advice from an Ethical Hacker",
+      "length": "26:34",
+      "percentWatched": 98.31214
+    }
+  ]
+}
