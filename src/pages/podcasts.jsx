@@ -3,18 +3,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import podcastData from '../assets/podcastData'
 
-function getListenedPodcasts() {
-  const allEpisodes = document.querySelectorAll('.tracklist-row')
-  //viewed includes all episodes that have a progress bar
-  const viewed = [...allEpisodes].filter(track => track.querySelector('.progress-bar__fg'))
-  const numBetweenParens = str => Math.abs(parseFloat(str.substring(str.indexOf('(') + 1,str.indexOf(')'))))
-  return viewed.map(x => {
-    return {
-      title: x.querySelector('.tracklist-name').textContent,
-      length: x.querySelector('.tracklist-duration span').textContent,
-      percentWatched: 100 - numBetweenParens(x.querySelector('.progress-bar__fg').style.transform),
-    }
-  })
+//[].flat is not supported everywhere and caused netlify deploy to fail
+function flat(input, depth = 1, stack = []) {
+  for (let item of input) {
+      if (item instanceof Array && depth > 0) flat(item, depth - 1, stack);
+      else stack.push(item);
+  }
+  return stack;
 }
 
 function timeToDecimal(t) {
@@ -23,7 +18,7 @@ function timeToDecimal(t) {
   return parseFloat(parseInt(arr[0], 10) + '.' + (dec<10?'0':'') + dec);
 }
 
-const allEpisodes = Object.values(podcastData).flat()
+const allEpisodes = flat(Object.values(podcastData))
 const lengths = allEpisodes.map(episode => episode.length)
 const totalTime = lengths.reduce((acc, val) => parseFloat(acc + timeToDecimal(val)))/60
 
@@ -58,7 +53,6 @@ const Podcasts = () => {
       <p>
         <pre style={{textAlign: 'initial'}}>
           <code>
-            {/* {getListenedPodcasts.toString()} */}
           {`
 function getListenedPodcasts() {
   const allEpisodes = document.querySelectorAll('.tracklist-row')
