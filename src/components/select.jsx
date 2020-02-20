@@ -1,5 +1,5 @@
 import React from "react"
-import Select from 'react-select'
+import ReactSelect from 'react-select'
 
 const customStyles = {
   menu: (provided, state) => ({
@@ -26,7 +26,7 @@ const customStyles = {
     ...provided,
     color: 'lightgray',
     borderBottom: 'lightgray 1px solid',
-    backgroundColor: state.isFocused ? 'darkgray' : provided.backgroundColor,
+    backgroundColor: state.isFocused ? 'darkgray' : state.isSelected ? 'slategray' : 'gray',
   }),
 
   multiValueRemove: (provided, state) => ({
@@ -38,6 +38,7 @@ const customStyles = {
   }),
 }
 
-const Multiselect = props => <Select className='centered' styles={customStyles} isMulti closeMenuOnSelect={false} {...props} />
+//closeMenuOnSelect={false} isMulti
+const Select = props => <ReactSelect className='centered' styles={customStyles} {...props} />
 
-export default Multiselect
+export default Select

@@ -2,8 +2,7 @@ import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import cardStats from '../assets/cardStats'
-// import Select from 'react-select'
-import Multiselect from '../components/multiselect'
+import Select from '../components/select'
 
 /*
 "Minions": {
@@ -67,44 +66,23 @@ const ClashRoyale = () => {
   // const [tables, setTables] = useState(updateTables([]))
   const [state, setState] = useState(updateTables('Archers'))
 
-  const changeTable = x => {
-    const val = x && x.length ? x[0].label : ''
-    setState(updateTables(val))
-  }
+  // const changeTable = x => {
+  //   const val = x && x.length ? x[0].label : ''
+  //   setState(updateTables(val))
+  // }
 
   return (
     <Layout>
       <SEO title="Clash Royale" />
-      {/* <input type="text" name="selectedcard" list="cardnames"
-        onClick={e => e.target.value = ''}
-        onChange={e => setState(updateTables(e.target.value))}/>
-      <br/><br/>
-      <datalist id="cardnames">
-        {Object.keys(cardStats).sort().map(x => <option value={x.replace('_',' ')} key={x}/>)}
-      </datalist><br/> */}
-      {/* <Multiselect options={options} onChange={(x, y) => console.log('changed',x,y)}  /> */}
-      <Multiselect options={options} onChange={changeTable}  />
+      <Select options={options} onChange={(x) => setState(updateTables(x.label))}/>
       <br/><br/>  
       <h1 style={{textAlign:'center'}}>{state.cardName}</h1>
       {state.attrTable}<br/><br/><br/>
       {state.statsTable}<br/><br/><br/>
+      <br/><br/><br/><br/><br/>
+      <p>Last updated 02/20/2020</p>
     </Layout>
   )
-  // return (
-  //   <Layout>
-  //     <SEO title="Clash Royale" />
-  //     <input type="text" name="selectedcard" list="cardnames"
-  //       onClick={e => e.target.value = ''}
-  //       onChange={e => setState(updateTables(e.target.value))}/>
-  //     <br/><br/>
-  //     <datalist id="cardnames">
-  //       {Object.keys(cardStats).sort().map(x => <option value={x.replace('_',' ')} key={x}/>)}
-  //     </datalist><br/>
-  //     <h1 style={{textAlign:'center'}}>{state.cardName}</h1>
-  //     {state.attrTable}<br/><br/><br/>
-  //     {state.statsTable}<br/><br/><br/>
-  //   </Layout>
-  // )
 }
 
 export default ClashRoyale
