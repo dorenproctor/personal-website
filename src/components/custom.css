@@ -4,11 +4,15 @@ body {
   background-color: #353131;
 }
 
-p, h1,h2,h3,h4,h5,h6, a, div {
-  color: white;
+h1,h2,h3,h4,h5,h6, a, div {
+  color: darkgray;
 }
 
 p {
+  color: gray;
+}
+
+p, .centered {
   width: 80%;
   display: block;
   margin-left: auto;
@@ -22,7 +26,7 @@ html, body {
 }
 
 @media only screen and (min-width: 768px) {
-  p {
+  p, .centered {
     width: 70%;
   }
 }

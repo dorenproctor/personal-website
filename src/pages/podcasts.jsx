@@ -50,10 +50,9 @@ const Podcasts = () => {
         I collected all episodes that have a progress bar so there may be a few I did not actually listen to but I saw significantly
         more episodes that showed a very low percentage that I did listen to than there were episodes I did not listen to that had progress bars.
       </p>
-      <p>
-        <pre style={{textAlign: 'initial'}}>
-          <code>
-          {`
+      <pre style={{textAlign: 'initial'}} class="centered">
+        <code>
+        {`
 function getListenedPodcasts() {
   const allEpisodes = document.querySelectorAll('.tracklist-row')
   //viewed includes all episodes that have a progress bar
@@ -68,10 +67,9 @@ function getListenedPodcasts() {
   })
 }
 getListenedPodcasts()
-            `}
-          </code>
-        </pre>
-      </p>
+          `}
+        </code>
+      </pre>
     </Layout>
   )
 }
